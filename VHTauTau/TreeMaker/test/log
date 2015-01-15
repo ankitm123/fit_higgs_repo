@@ -1,0 +1,772 @@
+Adapting PF Muons 
+***************** 
+
+ muon source: cms.InputTag("pfIsolatedMuonsPFlow")
+
+Adapting PF Electrons 
+********************* 
+
+ PF electron source: cms.InputTag("pfIsolatedElectronsPFlow")
+
+Switching to PFJets,   AK5
+************************ 
+input collection:  cms.InputTag("pfNoTauClonesPFlow")
+patTaus will be produced from taus of type: hpsPFTau that pass ['DiscriminationByLooseCombinedIsolationDBSumPtCorr']
+ switching PAT Tau input to:  cms.InputTag("hpsPFTauProducerPFlow")
+MET: using  cms.InputTag("pfMETPFlow")
+Switching PV collection for PF2PAT: cms.InputTag("offlinePrimaryVertices")
+***********************************
+Done: PF2PAT interfaced to PAT, postfix= PFlow , Exluded from Top Projection: Tau
+271 DQMStore::DQMStore 
+28-Mar-2014 17:37:14 EDT  Initiating request to open file file:/home/amohapatra/work/test/CMSSW_6_2_0_SLHC5/src/GluGluH_tautau_14TeV_620slhc5_v5_gaussBeamSpot_100_1_uUb.root
+28-Mar-2014 17:37:15 EDT  Successfully opened file file:/home/amohapatra/work/test/CMSSW_6_2_0_SLHC5/src/GluGluH_tautau_14TeV_620slhc5_v5_gaussBeamSpot_100_1_uUb.root
+Begin processing the 1st record. Run 1, Event 1, LumiSection 100 at 28-Mar-2014 17:37:33.164 EDT
+in MuonNumberingInitialization::initializeMuonDDDConstants
+about to make my new muonDDDConst_
+in MuonNumberingInitialization::produce
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 100 at 28-Mar-2014 17:37:49.517 EDT
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 100 at 28-Mar-2014 17:37:49.683 EDT
+Begin processing the 4th record. Run 1, Event 4, LumiSection 100 at 28-Mar-2014 17:37:49.783 EDT
+Begin processing the 5th record. Run 1, Event 5, LumiSection 100 at 28-Mar-2014 17:37:49.863 EDT
+Begin processing the 6th record. Run 1, Event 6, LumiSection 100 at 28-Mar-2014 17:37:50.006 EDT
+Begin processing the 7th record. Run 1, Event 7, LumiSection 100 at 28-Mar-2014 17:37:50.180 EDT
+Begin processing the 8th record. Run 1, Event 8, LumiSection 100 at 28-Mar-2014 17:37:50.278 EDT
+Begin processing the 9th record. Run 1, Event 9, LumiSection 100 at 28-Mar-2014 17:37:50.372 EDT
+Begin processing the 10th record. Run 1, Event 10, LumiSection 100 at 28-Mar-2014 17:37:50.544 EDT
+28-Mar-2014 17:37:50 EDT  Closed file file:/home/amohapatra/work/test/CMSSW_6_2_0_SLHC5/src/GluGluH_tautau_14TeV_620slhc5_v5_gaussBeamSpot_100_1_uUb.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 10 passed = 10 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     1    0         10         10          0          0 p
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     0    0         10         10          0          0 outpath
+
+TrigReport ---------- Modules in Path: p ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0         10         10          0          0 muonMatch
+TrigReport     1    0         10         10          0          0 pfNoPileUpPFlow
+TrigReport     1    0         10         10          0          0 pfNoMuonPFlow
+TrigReport     1    0         10         10          0          0 pfNoElectronPFlow
+TrigReport     1    0         10         10          0          0 pfNoJetPFlow
+
+TrigReport ------ Modules in End-Path: outpath ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0         10         10          0          0 out
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited        Run     Passed     Failed      Error Name
+TrigReport         10         10         10          0          0 muonMatch
+TrigReport         10         10         10          0          0 pfNoPileUpPFlow
+TrigReport         10         10         10          0          0 pfNoMuonPFlow
+TrigReport         10         10         10          0          0 pfNoElectronPFlow
+TrigReport         10         10         10          0          0 pfNoJetPFlow
+TrigReport         10         10         10          0          0 TriggerResults
+TrigReport         10         10         10          0          0 out
+TrigReport          0          0          0          0          0 ak3HiGenJetsPFlow
+TrigReport          0          0          0          0          0 ak4HiGenJetsPFlow
+TrigReport          0          0          0          0          0 ak5GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 ak5GenJetsNoNuPFlow
+TrigReport         10         10         10          0          0 ak5GenJetsPFlow
+TrigReport          0          0          0          0          0 ak5HiGenJetsPFlow
+TrigReport          0          0          0          0          0 ak5PFJetTracksAssociatorAtVertexPFlow
+TrigReport          0          0          0          0          0 ak5PFJetsLegacyHPSPiZerosPFlow
+TrigReport         10         10         10          0          0 ak5PFJetsPFlow
+TrigReport          0          0          0          0          0 ak5PFJetsPtrsPFlow
+TrigReport          0          0          0          0          0 ak7HiGenJetsPFlow
+TrigReport          0          0          0          0          0 ak8GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 ak8GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 ak8GenJetsPFlow
+TrigReport          0          0          0          0          0 ca4GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 ca4GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 ca4GenJetsPFlow
+TrigReport          0          0          0          0          0 ca6GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 ca6GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 ca6GenJetsPFlow
+TrigReport          0          0          0          0          0 caloJetMETcorrPFlow
+TrigReport          0          0          0          0          0 caloType1CorrectedMetPFlow
+TrigReport          0          0          0          0          0 caloType1p2CorrectedMetPFlow
+TrigReport          0          0          0          0          0 cleanPatElectronsPFlow
+TrigReport          0          0          0          0          0 cleanPatJetsPFlow
+TrigReport          0          0          0          0          0 cleanPatMuonsPFlow
+TrigReport          0          0          0          0          0 cleanPatPhotonsPFlow
+TrigReport          0          0          0          0          0 cleanPatTausPFlow
+TrigReport          0          0          0          0          0 combinatoricRecoTausPFlow
+TrigReport          0          0          0          0          0 countPatElectronsPFlow
+TrigReport          0          0          0          0          0 countPatJetsPFlow
+TrigReport          0          0          0          0          0 countPatLeptonsPFlow
+TrigReport          0          0          0          0          0 countPatMuonsPFlow
+TrigReport          0          0          0          0          0 countPatPFParticlesPFlow
+TrigReport          0          0          0          0          0 countPatPhotonsPFlow
+TrigReport          0          0          0          0          0 countPatTausPFlow
+TrigReport         10         10         10          0          0 electronMatchPFlow
+TrigReport          0          0          0          0          0 genParticlesForJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 genParticlesForJetsNoNuPFlow
+TrigReport         10         10         10          0          0 genParticlesForJetsPFlow
+TrigReport          0          0          0          0          0 gk5GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 gk5GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 gk5GenJetsPFlow
+TrigReport          0          0          0          0          0 gk8GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 gk8GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 gk8GenJetsPFlow
+TrigReport          0          0          0          0          0 goodOfflinePrimaryVerticesPFlow
+TrigReport          0          0          0          0          0 hiGenParticlesForJetsPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDeadECALElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByDeadECALElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDecayModeFinding
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByDecayModeFindingPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVA2raw
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVA2rawPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVAraw
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByIsolationMVArawPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseChargedIsolation
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseChargedIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3Hits
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3HitsPFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolationMVA
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolationMVA2
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseIsolationMVA2PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseIsolationMVAPFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseMuonRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseMuonRejection2
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseMuonRejection2PFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByLooseMuonRejection3
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseMuonRejection3PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByLooseMuonRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA2LooseElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA2LooseElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA2MediumElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA2MediumElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA2TightElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA2TightElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA2VLooseElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA2VLooseElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA2rawElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA2rawElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3LooseElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA3LooseElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3MediumElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA3MediumElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3TightElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA3TightElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3VTightElectronRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3VTightElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA3rawElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVA3rawElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVAElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMVAElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumChargedIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumChargedIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3Hits
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3HitsPFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationMVA
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationMVA2
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationMVA2PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumIsolationMVAPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumMuonRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMediumMuonRejection2
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumMuonRejection2PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByMediumMuonRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3Hits
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3HitsPFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightChargedIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightChargedIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3Hits
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3HitsPFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightElectronRejection
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightElectronRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationMVA
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationMVA2
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationMVA2PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightIsolationMVAPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightMuonRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightMuonRejection2
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightMuonRejection2PFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByTightMuonRejection3
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightMuonRejection3PFlow
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByTightMuonRejectionPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseChargedIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseChargedIsolationPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorr
+TrigReport         10         10         10          0          0 hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseIsolation
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorr
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorrPFlow
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByVLooseIsolationPFlow
+TrigReport         10         10         10          0          0 hpsPFTauProducerPFlow
+TrigReport         10         10         10          0          0 hpsPFTauProducerSansRefsPFlow
+TrigReport         10         10         10          0          0 hpsSelectionDiscriminatorPFlow
+TrigReport          0          0          0          0          0 ic5PFJetTracksAssociatorAtVertexPFlow
+TrigReport          0          0          0          0          0 isoDepositsPFlow
+TrigReport          0          0          0          0          0 iterativeCone3HiGenJetsPFlow
+TrigReport          0          0          0          0          0 iterativeCone4HiGenJetsPFlow
+TrigReport          0          0          0          0          0 iterativeCone5GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 iterativeCone5GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 iterativeCone5GenJetsPFlow
+TrigReport          0          0          0          0          0 iterativeCone5HiGenJetsPFlow
+TrigReport          0          0          0          0          0 iterativeCone7HiGenJetsPFlow
+TrigReport         10         10         10          0          0 jetTracksAssociatorAtVertexPFlow
+TrigReport          0          0          0          0          0 kt3HiGenJetsPFlow
+TrigReport          0          0          0          0          0 kt4GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 kt4GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 kt4GenJetsPFlow
+TrigReport          0          0          0          0          0 kt4HiGenJetsPFlow
+TrigReport          0          0          0          0          0 kt6GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 kt6GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 kt6GenJetsPFlow
+TrigReport          0          0          0          0          0 kt6HiGenJetsPFlow
+TrigReport         10         10         10          0          0 kt6PFJetsForRhoComputationVoronoiPFlow
+TrigReport          0          0          0          0          0 muonCaloMETcorrPFlow
+TrigReport         10         10         10          0          0 muonMatchPFlow
+TrigReport         10         10         10          0          0 particleFlowPtrsPFlow
+TrigReport         10         10         10          0          0 patElectronsPFlow
+TrigReport          0          0          0          0          0 patHemispheresPFlow
+TrigReport         10         10         10          0          0 patJetChargePFlow
+TrigReport         10         10         10          0          0 patJetCorrFactorsPFlow
+TrigReport         10         10         10          0          0 patJetFlavourAssociationPFlow
+TrigReport         10         10         10          0          0 patJetGenJetMatchPFlow
+TrigReport         10         10         10          0          0 patJetPartonAssociationPFlow
+TrigReport         10         10         10          0          0 patJetPartonMatchPFlow
+TrigReport         10         10         10          0          0 patJetPartonsPFlow
+TrigReport         10         10         10          0          0 patJetsPFlow
+TrigReport         10         10         10          0          0 patMETsPFlow
+TrigReport         10         10         10          0          0 patMuonsPFlow
+TrigReport          0          0          0          0          0 patPFParticlesPFlow
+TrigReport         10         10         10          0          0 patPhotonsPFlow
+TrigReport         10         10         10          0          0 patTausPFlow
+TrigReport         10         10         10          0          0 pfAllChargedHadronsPFlow
+TrigReport          0          0          0          0          0 pfAllChargedParticlesPFlow
+TrigReport          0          0          0          0          0 pfAllElectronsClonesPFlow
+TrigReport         10         10         10          0          0 pfAllElectronsPFlow
+TrigReport          0          0          0          0          0 pfAllMuonsClonesPFlow
+TrigReport         10         10         10          0          0 pfAllMuonsPFlow
+TrigReport          0          0          0          0          0 pfAllNeutralHadronsAndPhotonsPFlow
+TrigReport         10         10         10          0          0 pfAllNeutralHadronsPFlow
+TrigReport         10         10         10          0          0 pfAllPhotonsPFlow
+TrigReport          0          0          0          0          0 pfCandMETcorrPFlow
+TrigReport          0          0          0          0          0 pfCandsNotInJetPFlow
+TrigReport          0          0          0          0          0 pfCandsNotInJetPtrsPFlow
+TrigReport         10         10         10          0          0 pfElectronsFromVertexPFlow
+TrigReport          0          0          0          0          0 pfElectronsPFlow
+TrigReport         10         10         10          0          0 pfIsolatedElectronsPFlow
+TrigReport         10         10         10          0          0 pfIsolatedMuonsPFlow
+TrigReport          0          0          0          0          0 pfIsolatedPhotonsPFlow
+TrigReport          0          0          0          0          0 pfJetMETcorrPFlow
+TrigReport         10         10         10          0          0 pfJetTracksAssociatorAtVertexPFlow
+TrigReport         10         10         10          0          0 pfJetsLegacyHPSPiZerosPFlow
+TrigReport         10         10         10          0          0 pfJetsPFlow
+TrigReport         10         10         10          0          0 pfJetsPtrsPFlow
+TrigReport         10         10         10          0          0 pfMETPFlow
+TrigReport          0          0          0          0          0 pfMetPFlow
+TrigReport         10         10         10          0          0 pfMuonsFromVertexPFlow
+TrigReport          0          0          0          0          0 pfMuonsPFlow
+TrigReport          0          0          0          0          0 pfNoElectronJMEClonesPFlow
+TrigReport         10         10         10          0          0 pfNoElectronJMEPFlow
+TrigReport          0          0          0          0          0 pfNoJetClonesPFlow
+TrigReport         10         10         10          0          0 pfNoMuonJMEPFlow
+TrigReport         10         10         10          0          0 pfNoPileUpIsoPFlow
+TrigReport         10         10         10          0          0 pfNoPileUpJMEPFlow
+TrigReport         10         10         10          0          0 pfNoTauClonesPFlow
+TrigReport         10         10         10          0          0 pfNoTauPFlow
+TrigReport          0          0          0          0          0 pfPileUpAllChargedParticlesPFlow
+TrigReport         10         10         10          0          0 pfPileUpIsoPFlow
+TrigReport         10         10         10          0          0 pfPileUpJMEPFlow
+TrigReport         10         10         10          0          0 pfPileUpPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectron
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronDeadECAL
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronDeadECALPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVA
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVA2
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVA2PFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVA3
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVA3PFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronMVAPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstElectronPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstMuon
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstMuon2
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstMuon2PFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationAgainstMuonPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByIsolation
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByIsolationPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByLeadingTrackFinding
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByLeadingTrackFindingPFlow
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByMVAIsolation
+TrigReport          0          0          0          0          0 pfRecoTauDiscriminationByMVAIsolationPFlow
+TrigReport          0          0          0          0          0 pfRecoTauTagInfoProducerPFlow
+TrigReport          0          0          0          0          0 pfSelectedPhotonsPFlow
+TrigReport          0          0          0          0          0 pfTauPFJets08RegionPFlow
+TrigReport          0          0          0          0          0 pfTauPileUpVerticesPFlow
+TrigReport          0          0          0          0          0 pfTauSelectorPFlow
+TrigReport         10         10         10          0          0 pfTauTagInfoProducerPFlow
+TrigReport         10         10         10          0          0 pfTausBaseDiscriminationByDecayModeFindingPFlow
+TrigReport         10         10         10          0          0 pfTausBaseDiscriminationByLooseCombinedIsolationDBSumPtCorrPFlow
+TrigReport         10         10         10          0          0 pfTausBasePFlow
+TrigReport          0          0          0          0          0 pfTausCombinerPFlow
+TrigReport          0          0          0          0          0 pfTausDiscriminationByDecayModeFindingPFlow
+TrigReport          0          0          0          0          0 pfTausDiscriminationByIsolationPFlow
+TrigReport         10         10         10          0          0 pfTausPFlow
+TrigReport          0          0          0          0          0 pfTausProducerPFlow
+TrigReport          0          0          0          0          0 pfTausProducerSansRefsPFlow
+TrigReport         10         10         10          0          0 pfTausPtrsPFlow
+TrigReport          0          0          0          0          0 pfTausSelectionDiscriminatorPFlow
+TrigReport          0          0          0          0          0 pfType1CorrectedMetPFlow
+TrigReport          0          0          0          0          0 pfType1p2CorrectedMetPFlow
+TrigReport          0          0          0          0          0 pfchsMETcorrPFlow
+TrigReport          0          0          0          0          0 phPFIsoDepositChargedAllPFlow
+TrigReport          0          0          0          0          0 phPFIsoDepositChargedPFlow
+TrigReport          0          0          0          0          0 phPFIsoDepositGammaPFlow
+TrigReport          0          0          0          0          0 phPFIsoDepositNeutralPFlow
+TrigReport          0          0          0          0          0 phPFIsoDepositPUPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueCharged03PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueCharged04PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueChargedAll03PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueChargedAll04PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueGamma03PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueGamma04PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueNeutral03PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValueNeutral04PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValuePU03PFIdPFlow
+TrigReport          0          0          0          0          0 phPFIsoValuePU04PFIdPFlow
+TrigReport         10         10         10          0          0 photonMatchPFlow
+TrigReport          0          0          0          0          0 randomEngineStateProducer
+TrigReport         10         10         10          0          0 recoTauAK5PFJets08RegionPFlow
+TrigReport          0          0          0          0          0 recoTauDiscriminantCutMultiplexerPFlow
+TrigReport          0          0          0          0          0 recoTauPileUpVerticesPFlow
+TrigReport         10         10         10          0          0 selectedPatElectronsPFlow
+TrigReport         10         10         10          0          0 selectedPatJetsPFlow
+TrigReport         10         10         10          0          0 selectedPatMuonsPFlow
+TrigReport          0          0          0          0          0 selectedPatPFParticlesPFlow
+TrigReport         10         10         10          0          0 selectedPatPhotonsPFlow
+TrigReport         10         10         10          0          0 selectedPatTausPFlow
+TrigReport          0          0          0          0          0 sisCone5GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 sisCone5GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 sisCone5GenJetsPFlow
+TrigReport          0          0          0          0          0 sisCone8GenJetsNoMuNoNuPFlow
+TrigReport          0          0          0          0          0 sisCone8GenJetsNoNuPFlow
+TrigReport          0          0          0          0          0 sisCone8GenJetsPFlow
+TrigReport         10         10         10          0          0 tauGenJetMatchPFlow
+TrigReport         10         10         10          0          0 tauGenJetsPFlow
+TrigReport         10         10         10          0          0 tauGenJetsSelectorAllHadronsPFlow
+TrigReport         10         10         10          0          0 tauIsoDepositPFCandidatesPFlow
+TrigReport         10         10         10          0          0 tauIsoDepositPFChargedHadronsPFlow
+TrigReport         10         10         10          0          0 tauIsoDepositPFGammasPFlow
+TrigReport         10         10         10          0          0 tauIsoDepositPFNeutralHadronsPFlow
+TrigReport         10         10         10          0          0 tauMatchPFlow
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport CPU/event = 1.725338 Real/event = 1.752892
+
+TimeReport ---------- Path   Summary ---[sec]----
+TimeReport             per event          per path-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.038994   0.038886   0.038994   0.038886 p
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event          per path-run 
+
+TimeReport -------End-Path   Summary ---[sec]----
+TimeReport             per event       per endpath-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   1.686344   1.713948   1.686344   1.713948 outpath
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event       per endpath-run 
+
+TimeReport ---------- Modules in Path: p ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.004699   0.004728   0.004699   0.004728 muonMatch
+TimeReport   0.005499   0.005489   0.005499   0.005489 pfNoPileUpPFlow
+TimeReport   0.000300   0.000275   0.000300   0.000275 pfNoMuonPFlow
+TimeReport   0.000100   0.000105   0.000100   0.000105 pfNoElectronPFlow
+TimeReport   0.028396   0.028283   0.028396   0.028283 pfNoJetPFlow
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ------ Modules in End-Path: outpath ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   1.686344   1.713944   1.686344   1.713944 out
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ---------- Module Summary ---[sec]----
+TimeReport             per event        per module-run      per module-visit 
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport   0.004699   0.004728   0.004699   0.004728   0.004699   0.004728 muonMatch
+TimeReport   0.005499   0.005489   0.005499   0.005489   0.005499   0.005489 pfNoPileUpPFlow
+TimeReport   0.000300   0.000275   0.000300   0.000275   0.000300   0.000275 pfNoMuonPFlow
+TimeReport   0.000100   0.000105   0.000100   0.000105   0.000100   0.000105 pfNoElectronPFlow
+TimeReport   0.028396   0.028283   0.028396   0.028283   0.028396   0.028283 pfNoJetPFlow
+TimeReport   0.000000   0.000046   0.000000   0.000046   0.000000   0.000046 TriggerResults
+TimeReport   1.686344   1.713944   1.686344   1.713944   1.686344   1.713944 out
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5GenJetsNoNuPFlow
+TimeReport   0.003999   0.003601   0.003999   0.003601   0.003999   0.003601 ak5GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFJetTracksAssociatorAtVertexPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFJetsLegacyHPSPiZerosPFlow
+TimeReport   0.026896   0.026878   0.026896   0.026878   0.026896   0.026878 ak5PFJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFJetsPtrsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak7HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak8GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak8GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak8GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca4GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca4GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca4GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca6GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca6GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ca6GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloJetMETcorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloType1CorrectedMetPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 caloType1p2CorrectedMetPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatElectronsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatPhotonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPatTausPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 combinatoricRecoTausPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatElectronsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatLeptonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatPFParticlesPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatPhotonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 countPatTausPFlow
+TimeReport   0.000100   0.000056   0.000100   0.000056   0.000100   0.000056 electronMatchPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 genParticlesForJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 genParticlesForJetsNoNuPFlow
+TimeReport   0.002200   0.002266   0.002200   0.002266   0.002200   0.002266 genParticlesForJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk5GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk5GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk5GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk8GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk8GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gk8GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 goodOfflinePrimaryVerticesPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiGenParticlesForJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByDeadECALElectronRejection
+TimeReport   0.013398   0.013603   0.013398   0.013603   0.013398   0.013603 hpsPFTauDiscriminationByDeadECALElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByDecayModeFinding
+TimeReport   0.000000   0.000061   0.000000   0.000061   0.000000   0.000061 hpsPFTauDiscriminationByDecayModeFindingPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByIsolationMVA2raw
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByIsolationMVA2rawPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByIsolationMVAraw
+TimeReport   0.002200   0.002219   0.002200   0.002219   0.002200   0.002219 hpsPFTauDiscriminationByIsolationMVArawPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseChargedIsolation
+TimeReport   0.000400   0.000667   0.000400   0.000667   0.000400   0.000667 hpsPFTauDiscriminationByLooseChargedIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3Hits
+TimeReport   0.000800   0.000675   0.000800   0.000675   0.000800   0.000675 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr3HitsPFlow
+TimeReport   0.000600   0.000672   0.000600   0.000672   0.000600   0.000672 hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseElectronRejection
+TimeReport   0.000100   0.000029   0.000100   0.000029   0.000100   0.000029 hpsPFTauDiscriminationByLooseElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolationMVA
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolationMVA2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseIsolationMVA2PFlow
+TimeReport   0.000000   0.000038   0.000000   0.000038   0.000000   0.000038 hpsPFTauDiscriminationByLooseIsolationMVAPFlow
+TimeReport   0.000500   0.000715   0.000500   0.000715   0.000500   0.000715 hpsPFTauDiscriminationByLooseIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseMuonRejection
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseMuonRejection2
+TimeReport   0.000600   0.000477   0.000600   0.000477   0.000600   0.000477 hpsPFTauDiscriminationByLooseMuonRejection2PFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByLooseMuonRejection3
+TimeReport   0.000000   0.000036   0.000000   0.000036   0.000000   0.000036 hpsPFTauDiscriminationByLooseMuonRejection3PFlow
+TimeReport   0.000000   0.000037   0.000000   0.000037   0.000000   0.000037 hpsPFTauDiscriminationByLooseMuonRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA2LooseElectronRejection
+TimeReport   0.001400   0.001637   0.001400   0.001637   0.001400   0.001637 hpsPFTauDiscriminationByMVA2LooseElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA2MediumElectronRejection
+TimeReport   0.000000   0.000022   0.000000   0.000022   0.000000   0.000022 hpsPFTauDiscriminationByMVA2MediumElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA2TightElectronRejection
+TimeReport   0.000000   0.000021   0.000000   0.000021   0.000000   0.000021 hpsPFTauDiscriminationByMVA2TightElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA2VLooseElectronRejection
+TimeReport   0.000000   0.000021   0.000000   0.000021   0.000000   0.000021 hpsPFTauDiscriminationByMVA2VLooseElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA2rawElectronRejection
+TimeReport   0.001400   0.001609   0.001400   0.001609   0.001400   0.001609 hpsPFTauDiscriminationByMVA2rawElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3LooseElectronRejection
+TimeReport   0.000700   0.000694   0.000700   0.000694   0.000700   0.000694 hpsPFTauDiscriminationByMVA3LooseElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3MediumElectronRejection
+TimeReport   0.000000   0.000022   0.000000   0.000022   0.000000   0.000022 hpsPFTauDiscriminationByMVA3MediumElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3TightElectronRejection
+TimeReport   0.000000   0.000022   0.000000   0.000022   0.000000   0.000022 hpsPFTauDiscriminationByMVA3TightElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3VTightElectronRejection
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3VTightElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVA3rawElectronRejection
+TimeReport   0.000700   0.000666   0.000700   0.000666   0.000700   0.000666 hpsPFTauDiscriminationByMVA3rawElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMVAElectronRejection
+TimeReport   0.000900   0.000711   0.000900   0.000711   0.000900   0.000711 hpsPFTauDiscriminationByMVAElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumChargedIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumChargedIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3Hits
+TimeReport   0.000500   0.000672   0.000500   0.000672   0.000500   0.000672 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr3HitsPFlow
+TimeReport   0.000800   0.000666   0.000800   0.000666   0.000800   0.000666 hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumElectronRejection
+TimeReport   0.000000   0.000027   0.000000   0.000027   0.000000   0.000027 hpsPFTauDiscriminationByMediumElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationMVA
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationMVA2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationMVA2PFlow
+TimeReport   0.000000   0.000029   0.000000   0.000029   0.000000   0.000029 hpsPFTauDiscriminationByMediumIsolationMVAPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumMuonRejection
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByMediumMuonRejection2
+TimeReport   0.000100   0.000036   0.000100   0.000036   0.000100   0.000036 hpsPFTauDiscriminationByMediumMuonRejection2PFlow
+TimeReport   0.000000   0.000035   0.000000   0.000035   0.000000   0.000035 hpsPFTauDiscriminationByMediumMuonRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3Hits
+TimeReport   0.000700   0.000691   0.000700   0.000691   0.000700   0.000691 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr3HitsPFlow
+TimeReport   0.000600   0.000726   0.000600   0.000726   0.000600   0.000726 hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightChargedIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightChargedIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3Hits
+TimeReport   0.000700   0.000670   0.000700   0.000670   0.000700   0.000670 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr3HitsPFlow
+TimeReport   0.000800   0.000685   0.000800   0.000685   0.000800   0.000685 hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightElectronRejection
+TimeReport   0.000000   0.000033   0.000000   0.000033   0.000000   0.000033 hpsPFTauDiscriminationByTightElectronRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationMVA
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationMVA2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationMVA2PFlow
+TimeReport   0.000000   0.000028   0.000000   0.000028   0.000000   0.000028 hpsPFTauDiscriminationByTightIsolationMVAPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightMuonRejection
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightMuonRejection2
+TimeReport   0.000000   0.000036   0.000000   0.000036   0.000000   0.000036 hpsPFTauDiscriminationByTightMuonRejection2PFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByTightMuonRejection3
+TimeReport   0.000000   0.000036   0.000000   0.000036   0.000000   0.000036 hpsPFTauDiscriminationByTightMuonRejection3PFlow
+TimeReport   0.000100   0.000024   0.000100   0.000024   0.000100   0.000024 hpsPFTauDiscriminationByTightMuonRejectionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseChargedIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseChargedIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorr
+TimeReport   0.000800   0.000684   0.000800   0.000684   0.000800   0.000684 hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hpsPFTauDiscriminationByVLooseIsolationPFlow
+TimeReport   1.014646   1.040818   1.014646   1.040818   1.014646   1.040818 hpsPFTauProducerPFlow
+TimeReport   1.014546   1.040694   1.014546   1.040694   1.014546   1.040694 hpsPFTauProducerSansRefsPFlow
+TimeReport   1.013646   1.039933   1.013646   1.039933   1.013646   1.039933 hpsSelectionDiscriminatorPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ic5PFJetTracksAssociatorAtVertexPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDepositsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone3HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone4HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone5GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone5GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone5GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone5HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone7HiGenJetsPFlow
+TimeReport   0.000100   0.000107   0.000100   0.000107   0.000100   0.000107 jetTracksAssociatorAtVertexPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt3HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt4GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt4GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt4GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt4HiGenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt6GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt6GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt6GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 kt6HiGenJetsPFlow
+TimeReport   0.001900   0.001888   0.001900   0.001888   0.001900   0.001888 kt6PFJetsForRhoComputationVoronoiPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muonCaloMETcorrPFlow
+TimeReport   0.000000   0.000040   0.000000   0.000040   0.000000   0.000040 muonMatchPFlow
+TimeReport   0.002100   0.002318   0.002100   0.002318   0.002100   0.002318 particleFlowPtrsPFlow
+TimeReport   0.588511   0.589158   0.588511   0.589158   0.588511   0.589158 patElectronsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patHemispheresPFlow
+TimeReport   0.000100   0.000078   0.000100   0.000078   0.000100   0.000078 patJetChargePFlow
+TimeReport   0.004799   0.005338   0.004799   0.005338   0.004799   0.005338 patJetCorrFactorsPFlow
+TimeReport   0.004599   0.004626   0.004599   0.004626   0.004599   0.004626 patJetFlavourAssociationPFlow
+TimeReport   0.003999   0.003677   0.003999   0.003677   0.003999   0.003677 patJetGenJetMatchPFlow
+TimeReport   0.004399   0.004250   0.004399   0.004250   0.004399   0.004250 patJetPartonAssociationPFlow
+TimeReport   0.000300   0.000424   0.000300   0.000424   0.000300   0.000424 patJetPartonMatchPFlow
+TimeReport   0.000200   0.000196   0.000200   0.000196   0.000200   0.000196 patJetPartonsPFlow
+TimeReport   1.030343   1.057068   1.030343   1.057068   1.030343   1.057068 patJetsPFlow
+TimeReport   0.001800   0.001668   0.001800   0.001668   0.001800   0.001668 patMETsPFlow
+TimeReport   0.001800   0.001792   0.001800   0.001792   0.001800   0.001792 patMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patPFParticlesPFlow
+TimeReport   0.004999   0.004959   0.004999   0.004959   0.004999   0.004959 patPhotonsPFlow
+TimeReport   0.036694   0.036943   0.036694   0.036943   0.036694   0.036943 patTausPFlow
+TimeReport   0.000200   0.000389   0.000200   0.000389   0.000200   0.000389 pfAllChargedHadronsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllChargedParticlesPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllElectronsClonesPFlow
+TimeReport   0.000000   0.000022   0.000000   0.000022   0.000000   0.000022 pfAllElectronsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllMuonsClonesPFlow
+TimeReport   0.000000   0.000038   0.000000   0.000038   0.000000   0.000038 pfAllMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfAllNeutralHadronsAndPhotonsPFlow
+TimeReport   0.000000   0.000058   0.000000   0.000058   0.000000   0.000058 pfAllNeutralHadronsPFlow
+TimeReport   0.000000   0.000081   0.000000   0.000081   0.000000   0.000081 pfAllPhotonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfCandMETcorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfCandsNotInJetPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfCandsNotInJetPtrsPFlow
+TimeReport   0.000000   0.000041   0.000000   0.000041   0.000000   0.000041 pfElectronsFromVertexPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfElectronsPFlow
+TimeReport   0.000000   0.000074   0.000000   0.000074   0.000000   0.000074 pfIsolatedElectronsPFlow
+TimeReport   0.000300   0.000240   0.000300   0.000240   0.000300   0.000240 pfIsolatedMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfIsolatedPhotonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfJetMETcorrPFlow
+TimeReport   0.000100   0.000228   0.000100   0.000228   0.000100   0.000228 pfJetTracksAssociatorAtVertexPFlow
+TimeReport   0.000400   0.000454   0.000400   0.000454   0.000400   0.000454 pfJetsLegacyHPSPiZerosPFlow
+TimeReport   0.027696   0.027910   0.027696   0.027910   0.027696   0.027910 pfJetsPFlow
+TimeReport   0.027996   0.028016   0.027996   0.028016   0.027996   0.028016 pfJetsPtrsPFlow
+TimeReport   0.000800   0.000812   0.000800   0.000812   0.000800   0.000812 pfMETPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfMetPFlow
+TimeReport   0.000000   0.000099   0.000000   0.000099   0.000000   0.000099 pfMuonsFromVertexPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfNoElectronJMEClonesPFlow
+TimeReport   0.000200   0.000253   0.000200   0.000253   0.000200   0.000253 pfNoElectronJMEPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfNoJetClonesPFlow
+TimeReport   0.000200   0.000226   0.000200   0.000226   0.000200   0.000226 pfNoMuonJMEPFlow
+TimeReport   0.000000   0.000220   0.000000   0.000220   0.000000   0.000220 pfNoPileUpIsoPFlow
+TimeReport   0.000200   0.000197   0.000200   0.000197   0.000200   0.000197 pfNoPileUpJMEPFlow
+TimeReport   1.015546   1.041758   1.015546   1.041758   1.015546   1.041758 pfNoTauClonesPFlow
+TimeReport   1.015546   1.041714   1.015546   1.041714   1.015546   1.041714 pfNoTauPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfPileUpAllChargedParticlesPFlow
+TimeReport   0.000000   0.000188   0.000000   0.000188   0.000000   0.000188 pfPileUpIsoPFlow
+TimeReport   0.000200   0.000170   0.000200   0.000170   0.000200   0.000170 pfPileUpJMEPFlow
+TimeReport   0.005499   0.005434   0.005499   0.005434   0.005499   0.005434 pfPileUpPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectron
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronDeadECAL
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronDeadECALPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVA
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVA2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVA2PFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVA3
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVA3PFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronMVAPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstElectronPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstMuon
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstMuon2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstMuon2PFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationAgainstMuonPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByLeadingTrackFinding
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByLeadingTrackFindingPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByMVAIsolation
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauDiscriminationByMVAIsolationPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfRecoTauTagInfoProducerPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfSelectedPhotonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTauPFJets08RegionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTauPileUpVerticesPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTauSelectorPFlow
+TimeReport   0.000800   0.000771   0.000800   0.000771   0.000800   0.000771 pfTauTagInfoProducerPFlow
+TimeReport   0.000000   0.000037   0.000000   0.000037   0.000000   0.000037 pfTausBaseDiscriminationByDecayModeFindingPFlow
+TimeReport   0.000800   0.000730   0.000800   0.000730   0.000800   0.000730 pfTausBaseDiscriminationByLooseCombinedIsolationDBSumPtCorrPFlow
+TimeReport   1.013446   1.039791   1.013446   1.039791   1.013446   1.039791 pfTausBasePFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausCombinerPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausDiscriminationByDecayModeFindingPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausDiscriminationByIsolationPFlow
+TimeReport   1.015546   1.041607   1.015546   1.041607   1.015546   1.041607 pfTausPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausProducerPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausProducerSansRefsPFlow
+TimeReport   1.015546   1.041673   1.015546   1.041673   1.015546   1.041673 pfTausPtrsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTausSelectionDiscriminatorPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfType1CorrectedMetPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfType1p2CorrectedMetPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfchsMETcorrPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoDepositChargedAllPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoDepositChargedPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoDepositGammaPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoDepositNeutralPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoDepositPUPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueCharged03PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueCharged04PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueChargedAll03PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueChargedAll04PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueGamma03PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueGamma04PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueNeutral03PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValueNeutral04PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValuePU03PFIdPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 phPFIsoValuePU04PFIdPFlow
+TimeReport   0.000100   0.000062   0.000100   0.000062   0.000100   0.000062 photonMatchPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 randomEngineStateProducer
+TimeReport   0.000200   0.000179   0.000200   0.000179   0.000200   0.000179 recoTauAK5PFJets08RegionPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 recoTauDiscriminantCutMultiplexerPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 recoTauPileUpVerticesPFlow
+TimeReport   0.588511   0.589190   0.588511   0.589190   0.588511   0.589190 selectedPatElectronsPFlow
+TimeReport   1.030843   1.057434   1.030843   1.057434   1.030843   1.057434 selectedPatJetsPFlow
+TimeReport   0.001800   0.001833   0.001800   0.001833   0.001800   0.001833 selectedPatMuonsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatPFParticlesPFlow
+TimeReport   0.005099   0.005015   0.005099   0.005015   0.005099   0.005015 selectedPatPhotonsPFlow
+TimeReport   0.037194   0.037383   0.037194   0.037383   0.037194   0.037383 selectedPatTausPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone5GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone5GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone5GenJetsPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone8GenJetsNoMuNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone8GenJetsNoNuPFlow
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 sisCone8GenJetsPFlow
+TimeReport   0.000200   0.000174   0.000200   0.000174   0.000200   0.000174 tauGenJetMatchPFlow
+TimeReport   0.000000   0.000066   0.000000   0.000066   0.000000   0.000066 tauGenJetsPFlow
+TimeReport   0.000100   0.000129   0.000100   0.000129   0.000100   0.000129 tauGenJetsSelectorAllHadronsPFlow
+TimeReport   0.002600   0.002569   0.002600   0.002569   0.002600   0.002569 tauIsoDepositPFCandidatesPFlow
+TimeReport   0.001200   0.001260   0.001200   0.001260   0.001200   0.001260 tauIsoDepositPFChargedHadronsPFlow
+TimeReport   0.000700   0.000655   0.000700   0.000655   0.000700   0.000655 tauIsoDepositPFGammasPFlow
+TimeReport   0.000400   0.000382   0.000400   0.000382   0.000400   0.000382 tauIsoDepositPFNeutralHadronsPFlow
+TimeReport   0.000200   0.000324   0.000200   0.000324   0.000200   0.000324 tauMatchPFlow
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport             per event        per module-run      per module-visit 
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

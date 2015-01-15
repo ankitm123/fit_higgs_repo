@@ -1,0 +1,3 @@
+PatMCMatching = cms.EDAnalyzer("PatMCMatching",
+                               muonSrc = cms.untracked.InputTag("cleanPatMuons")
+                               )

@@ -1,0 +1,939 @@
+Collection name='TObjArray', class='TObjArray', size=16
+ *Br  226 :Vertex    : Int_t Vertex_                                          *
+*Entries :      500 : Total  Size=      14778 bytes  File Size  =       1010 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.04     *
+*............................................................................*
+*Br  227 :Vertex.fUniqueID : UInt_t fUniqueID[Vertex_]                       *
+*Entries :      500 : Total  Size=       5013 bytes  File Size  =        806 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.48     *
+*............................................................................*
+*Br  228 :Vertex.fBits : UInt_t fBits[Vertex_]                               *
+*Entries :      500 : Total  Size=       4993 bytes  File Size  =        804 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.48     *
+*............................................................................*
+*Br  229 :Vertex.x  : Double_t x[Vertex_]                                    *
+*Entries :      500 : Total  Size=       7293 bytes  File Size  =       3853 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.75     *
+*............................................................................*
+*Br  230 :Vertex.y  : Double_t y[Vertex_]                                    *
+*Entries :      500 : Total  Size=       7293 bytes  File Size  =       3865 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.74     *
+*............................................................................*
+*Br  231 :Vertex.z  : Double_t z[Vertex_]                                    *
+*Entries :      500 : Total  Size=       7293 bytes  File Size  =       3854 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.74     *
+*............................................................................*
+*Br  232 :Vertex.xErr : Double_t xErr[Vertex_]                               *
+*Entries :      500 : Total  Size=       7308 bytes  File Size  =       5413 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.24     *
+*............................................................................*
+*Br  233 :Vertex.yErr : Double_t yErr[Vertex_]                               *
+*Entries :      500 : Total  Size=       7308 bytes  File Size  =       5411 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.24     *
+*............................................................................*
+*Br  234 :Vertex.zErr : Double_t zErr[Vertex_]                               *
+*Entries :      500 : Total  Size=       7308 bytes  File Size  =       5404 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.25     *
+*............................................................................*
+*Br  235 :Vertex.rho : Double_t rho[Vertex_]                                 *
+*Entries :      500 : Total  Size=       7303 bytes  File Size  =       5405 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.24     *
+*............................................................................*
+*Br  236 :Vertex.chi2 : Double_t chi2[Vertex_]                               *
+*Entries :      500 : Total  Size=       7308 bytes  File Size  =       3696 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.82     *
+*............................................................................*
+*Br  237 :Vertex.ndf : Double_t ndf[Vertex_]                                 *
+*Entries :      500 : Total  Size=       7303 bytes  File Size  =       3739 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.80     *
+*............................................................................*
+*Br  238 :Vertex.ntracks : Int_t ntracks[Vertex_]                            *
+*Entries :      500 : Total  Size=       5003 bytes  File Size  =       1764 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.50     *
+*............................................................................*
+*Br  239 :Vertex.ntracksw05 : Int_t ntracksw05[Vertex_]                      *
+*Entries :      500 : Total  Size=       5018 bytes  File Size  =       1764 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.50     *
+*............................................................................*
+*Br  240 :Vertex.isfake : Bool_t isfake[Vertex_]                             *
+*Entries :      500 : Total  Size=       3258 bytes  File Size  =        879 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.04     *
+*............................................................................*
+*Br  241 :Vertex.isvalid : Bool_t isvalid[Vertex_]                           *
+*Entries :      500 : Total  Size=       3263 bytes  File Size  =        879 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.04     *
+*............................................................................*
+*Br  242 :Vertex.sumPt : Double_t sumPt[Vertex_]                             *
+*Entries :      500 : Total  Size=       7313 bytes  File Size  =       5447 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.24     *
+*............................................................................*
+*Br  243 :Vertex.selbit : Int_t selbit[Vertex_]                              *
+*Entries :      500 : Total  Size=       4998 bytes  File Size  =        804 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.49     *
+*............................................................................*
+ *Br  244 :nVertex   : fnVertex/I                                             *
+*Entries :      500 : Total  Size=       2561 bytes  File Size  =        280 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.41     *
+*............................................................................*
+ *Br  245 :GenParticle : Int_t GenParticle_                                   *
+*Entries :      500 : Total  Size=      50206 bytes  File Size  =       1915 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.13     *
+*............................................................................*
+*Br  246 :GenParticle.fUniqueID : UInt_t fUniqueID[GenParticle_]             *
+*Entries :      500 : Total  Size=    1488498 bytes  File Size  =      14958 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=  99.41     *
+*............................................................................*
+*Br  247 :GenParticle.fBits : UInt_t fBits[GenParticle_]                     *
+*Entries :      500 : Total  Size=    1488282 bytes  File Size  =      15755 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=  94.37     *
+*............................................................................*
+*Br  248 :GenParticle.eta : Double_t eta[GenParticle_]                       *
+*Entries :      500 : Total  Size=    2974258 bytes  File Size  =    1712371 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.74     *
+*............................................................................*
+*Br  249 :GenParticle.phi : Double_t phi[GenParticle_]                       *
+*Entries :      500 : Total  Size=    2974258 bytes  File Size  =    1757571 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.69     *
+*............................................................................*
+*Br  250 :GenParticle.p : Double_t p[GenParticle_]                           *
+*Entries :      500 : Total  Size=    2974044 bytes  File Size  =    2759578 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br  251 :GenParticle.px : Double_t px[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =    2770385 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br  252 :GenParticle.py : Double_t py[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =    2770216 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.07     *
+*............................................................................*
+*Br  253 :GenParticle.pz : Double_t pz[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =    2792283 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.06     *
+*............................................................................*
+*Br  254 :GenParticle.pt : Double_t pt[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =    1702838 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.75     *
+*............................................................................*
+*Br  255 :GenParticle.energy : Double_t energy[GenParticle_]                 *
+*Entries :      500 : Total  Size=    2974579 bytes  File Size  =    2759625 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   1.08     *
+*............................................................................*
+*Br  256 :GenParticle.pdgId : Int_t pdgId[GenParticle_]                      *
+*Entries :      500 : Total  Size=    1488282 bytes  File Size  =     344644 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=   4.31     *
+*............................................................................*
+*Br  257 :GenParticle.vx : Double_t vx[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =     308200 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   9.64     *
+*............................................................................*
+*Br  258 :GenParticle.vy : Double_t vy[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =     308164 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=   9.64     *
+*............................................................................*
+*Br  259 :GenParticle.vz : Double_t vz[GenParticle_]                         *
+*Entries :      500 : Total  Size=    2974151 bytes  File Size  =     264430 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=  11.24     *
+*............................................................................*
+*Br  260 :GenParticle.status : Int_t status[GenParticle_]                    *
+*Entries :      500 : Total  Size=    1488336 bytes  File Size  =     111643 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=  13.32     *
+*............................................................................*
+*Br  261 :GenParticle.charge : Double_t charge[GenParticle_]                 *
+*Entries :      500 : Total  Size=    2974579 bytes  File Size  =     190136 *
+*Baskets :      103 : Basket Size=      32000 bytes  Compression=  15.63     *
+*............................................................................*
+*Br  262 :GenParticle.numDaught : Int_t numDaught[GenParticle_]              *
+*Entries :      500 : Total  Size=    1488498 bytes  File Size  =     157138 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=   9.46     *
+*............................................................................*
+*Br  263 :GenParticle.numMother : Int_t numMother[GenParticle_]              *
+*Entries :      500 : Total  Size=    1488498 bytes  File Size  =      48053 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=  30.95     *
+*............................................................................*
+*Br  264 :GenParticle.motherIndex : Int_t motherIndex[GenParticle_]          *
+*Entries :      500 : Total  Size=    1488606 bytes  File Size  =     346501 *
+*Baskets :       50 : Basket Size=      32000 bytes  Compression=   4.29     *
+*............................................................................*
+*Br  265 :GenParticle.motherIndices : vector<int> motherIndices[GenParticle_]*
+*Entries :      500 : Total  Size=    3212458 bytes  File Size  =     564659 *
+*Baskets :      112 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  266 :GenParticle.daughtIndices : vector<int> daughtIndices[GenParticle_]*
+*Entries :      500 : Total  Size=    3212458 bytes  File Size  =     936405 *
+*Baskets :      112 : Basket Size=      32000 bytes  Compression=   3.43     *
+*............................................................................*
+ *Br  267 :nGenParticle : fnGenParticle/I                                     *
+*Entries :      500 : Total  Size=       2586 bytes  File Size  =       1198 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.74     *
+*............................................................................*
+ *Br  268 :Muon      : Int_t Muon_                                            *
+*Entries :      500 : Total  Size=      39664 bytes  File Size  =       1042 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.92     *
+*............................................................................*
+*Br  269 :Muon.fUniqueID : UInt_t fUniqueID[Muon_]                           *
+*Entries :      500 : Total  Size=       3095 bytes  File Size  =        439 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.71     *
+*............................................................................*
+*Br  270 :Muon.fBits : UInt_t fBits[Muon_]                                   *
+*Entries :      500 : Total  Size=       3075 bytes  File Size  =        440 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.69     *
+*............................................................................*
+*Br  271 :Muon.isTrackerMuon : Bool_t isTrackerMuon[Muon_]                   *
+*Entries :      500 : Total  Size=       2803 bytes  File Size  =        408 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.39     *
+*............................................................................*
+*Br  272 :Muon.isPFMuon : Bool_t isPFMuon[Muon_]                             *
+*Entries :      500 : Total  Size=       2778 bytes  File Size  =        399 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.50     *
+*............................................................................*
+*Br  273 :Muon.eta  : Double_t eta[Muon_]                                    *
+*Entries :      500 : Total  Size=       3481 bytes  File Size  =        996 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.93     *
+*............................................................................*
+*Br  274 :Muon.phi  : Double_t phi[Muon_]                                    *
+*Entries :      500 : Total  Size=       3481 bytes  File Size  =       1005 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.90     *
+*............................................................................*
+*Br  275 :Muon.pt   : Double_t pt[Muon_]                                     *
+*Entries :      500 : Total  Size=       3476 bytes  File Size  =        967 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.02     *
+*............................................................................*
+*Br  276 :Muon.ptError : Double_t ptError[Muon_]                             *
+*Entries :      500 : Total  Size=       3501 bytes  File Size  =       1282 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.28     *
+*............................................................................*
+*Br  277 :Muon.p    : Double_t p[Muon_]                                      *
+*Entries :      500 : Total  Size=       3471 bytes  File Size  =       1275 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  278 :Muon.energy : Double_t energy[Muon_]                               *
+*Entries :      500 : Total  Size=       3496 bytes  File Size  =       1274 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  279 :Muon.charge : Int_t charge[Muon_]                                  *
+*Entries :      500 : Total  Size=       3080 bytes  File Size  =        496 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.05     *
+*............................................................................*
+*Br  280 :Muon.trkD0 : Double_t trkD0[Muon_]                                 *
+*Entries :      500 : Total  Size=       3491 bytes  File Size  =       1290 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.26     *
+*............................................................................*
+*Br  281 :Muon.trkD0Error : Double_t trkD0Error[Muon_]                       *
+*Entries :      500 : Total  Size=       3516 bytes  File Size  =       1277 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  282 :Muon.trkDz : Double_t trkDz[Muon_]                                 *
+*Entries :      500 : Total  Size=       3491 bytes  File Size  =       1259 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.32     *
+*............................................................................*
+*Br  283 :Muon.trkDzError : Double_t trkDzError[Muon_]                       *
+*Entries :      500 : Total  Size=       3516 bytes  File Size  =       1279 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  284 :Muon.globalChi2 : Double_t globalChi2[Muon_]                       *
+*Entries :      500 : Total  Size=       3516 bytes  File Size  =       1236 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.37     *
+*............................................................................*
+*Br  285 :Muon.trkIso : Double_t trkIso[Muon_]                               *
+*Entries :      500 : Total  Size=       3496 bytes  File Size  =        682 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.28     *
+*............................................................................*
+*Br  286 :Muon.ecalIso : Double_t ecalIso[Muon_]                             *
+*Entries :      500 : Total  Size=       3501 bytes  File Size  =        568 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.14     *
+*............................................................................*
+*Br  287 :Muon.hcalIso : Double_t hcalIso[Muon_]                             *
+*Entries :      500 : Total  Size=       3501 bytes  File Size  =        473 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.18     *
+*............................................................................*
+*Br  288 :Muon.hoIso : Double_t hoIso[Muon_]                                 *
+*Entries :      500 : Total  Size=       3491 bytes  File Size  =        405 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.21     *
+*............................................................................*
+*Br  289 :Muon.relIso : Double_t relIso[Muon_]                               *
+*Entries :      500 : Total  Size=       3496 bytes  File Size  =        749 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.90     *
+*............................................................................*
+*Br  290 :Muon.passID : Int_t passID[Muon_]                                  *
+*Entries :      500 : Total  Size=       3080 bytes  File Size  =        437 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.73     *
+*............................................................................*
+*Br  291 :Muon.vtxDist3D : Double_t vtxDist3D[Muon_]                         *
+*Entries :      500 : Total  Size=       3511 bytes  File Size  =       1281 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.28     *
+*............................................................................*
+*Br  292 :Muon.vtxIndex : Int_t vtxIndex[Muon_]                              *
+*Entries :      500 : Total  Size=       3090 bytes  File Size  =        441 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  293 :Muon.vtxDistZ : Double_t vtxDistZ[Muon_]                           *
+*Entries :      500 : Total  Size=       3506 bytes  File Size  =       1294 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.26     *
+*............................................................................*
+*Br  294 :Muon.pixHits : Int_t pixHits[Muon_]                                *
+*Entries :      500 : Total  Size=       3085 bytes  File Size  =        514 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.87     *
+*............................................................................*
+*Br  295 :Muon.trkHits : Int_t trkHits[Muon_]                                *
+*Entries :      500 : Total  Size=       3085 bytes  File Size  =        557 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.50     *
+*............................................................................*
+*Br  296 :Muon.muoHits : Int_t muoHits[Muon_]                                *
+*Entries :      500 : Total  Size=       3085 bytes  File Size  =        590 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.25     *
+*............................................................................*
+*Br  297 :Muon.matches : Int_t matches[Muon_]                                *
+*Entries :      500 : Total  Size=       3085 bytes  File Size  =        497 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.04     *
+*............................................................................*
+*Br  298 :Muon.trackerLayersWithMeasurement :                                *
+*         | Int_t trackerLayersWithMeasurement[Muon_]                        *
+*Entries :      500 : Total  Size=       3190 bytes  File Size  =        553 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.57     *
+*............................................................................*
+*Br  299 :Muon.pfRelIso : Double_t pfRelIso[Muon_]                           *
+*Entries :      500 : Total  Size=       3506 bytes  File Size  =        405 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.21     *
+*............................................................................*
+*Br  300 :Muon.vx   : Double_t vx[Muon_]                                     *
+*Entries :      500 : Total  Size=       3476 bytes  File Size  =       1002 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.91     *
+*............................................................................*
+*Br  301 :Muon.vy   : Double_t vy[Muon_]                                     *
+*Entries :      500 : Total  Size=       3476 bytes  File Size  =       1005 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.90     *
+*............................................................................*
+*Br  302 :Muon.vz   : Double_t vz[Muon_]                                     *
+*Entries :      500 : Total  Size=       3476 bytes  File Size  =       1006 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.90     *
+*............................................................................*
+*Br  303 :Muon.dB   : Double_t dB[Muon_]                                     *
+*Entries :      500 : Total  Size=       3476 bytes  File Size  =       1289 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.26     *
+*............................................................................*
+*Br  304 :Muon.edB  : Double_t edB[Muon_]                                    *
+*Entries :      500 : Total  Size=       3481 bytes  File Size  =       1272 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  305 :Muon.dB3d : Double_t dB3d[Muon_]                                   *
+*Entries :      500 : Total  Size=       3486 bytes  File Size  =        993 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.94     *
+*............................................................................*
+*Br  306 :Muon.edB3d : Double_t edB3d[Muon_]                                 *
+*Entries :      500 : Total  Size=       3491 bytes  File Size  =       1272 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.29     *
+*............................................................................*
+*Br  307 :Muon.isGlobalMuonPromptTight :                                     *
+*         | Bool_t isGlobalMuonPromptTight[Muon_]                            *
+*Entries :      500 : Total  Size=       2853 bytes  File Size  =        418 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.28     *
+*............................................................................*
+*Br  308 :Muon.isAllArbitrated : Bool_t isAllArbitrated[Muon_]               *
+*Entries :      500 : Total  Size=       2813 bytes  File Size  =        410 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.37     *
+*............................................................................*
+*Br  309 :Muon.nChambers : Int_t nChambers[Muon_]                            *
+*Entries :      500 : Total  Size=       3095 bytes  File Size  =        547 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.58     *
+*............................................................................*
+*Br  310 :Muon.nMatches : Int_t nMatches[Muon_]                              *
+*Entries :      500 : Total  Size=       3090 bytes  File Size  =        499 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.02     *
+*............................................................................*
+*Br  311 :Muon.nMatchedStations : Int_t nMatchedStations[Muon_]              *
+*Entries :      500 : Total  Size=       3130 bytes  File Size  =        507 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.96     *
+*............................................................................*
+*Br  312 :Muon.stationMask : UInt_t stationMask[Muon_]                       *
+*Entries :      500 : Total  Size=       3105 bytes  File Size  =        561 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.47     *
+*............................................................................*
+*Br  313 :Muon.stationGapMaskDistance : UInt_t stationGapMaskDistance[Muon_] *
+*Entries :      500 : Total  Size=       3160 bytes  File Size  =        636 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.96     *
+*............................................................................*
+*Br  314 :Muon.stationGapMaskPull : UInt_t stationGapMaskPull[Muon_]         *
+*Entries :      500 : Total  Size=       3140 bytes  File Size  =        611 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.12     *
+*............................................................................*
+*Br  315 :Muon.muonID : Int_t muonID[Muon_]                                  *
+*Entries :      500 : Total  Size=       3080 bytes  File Size  =        435 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.76     *
+*............................................................................*
+*Br  316 :Muon.idMVA : Float_t idMVA[Muon_]                                  *
+*Entries :      500 : Total  Size=       3075 bytes  File Size  =        435 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.75     *
+*............................................................................*
+*Br  317 :Muon.isoRingsMVA : Float_t isoRingsMVA[Muon_]                      *
+*Entries :      500 : Total  Size=       3105 bytes  File Size  =        440 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.70     *
+*............................................................................*
+*Br  318 :Muon.isoRingsRadMVA : Float_t isoRingsRadMVA[Muon_]                *
+*Entries :      500 : Total  Size=       3120 bytes  File Size  =        443 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.67     *
+*............................................................................*
+*Br  319 :Muon.idIsoCombMVA : Float_t idIsoCombMVA[Muon_]                    *
+*Entries :      500 : Total  Size=       3110 bytes  File Size  =        442 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  320 :Muon.pfRelIso03v1 : Float_t pfRelIso03v1[Muon_]                    *
+*Entries :      500 : Total  Size=       3110 bytes  File Size  =        442 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  321 :Muon.pfRelIso03v2 : Float_t pfRelIso03v2[Muon_]                    *
+*Entries :      500 : Total  Size=       3110 bytes  File Size  =        442 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  322 :Muon.pfRelIsoDB03v1 : Float_t pfRelIsoDB03v1[Muon_]                *
+*Entries :      500 : Total  Size=       3120 bytes  File Size  =        443 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.67     *
+*............................................................................*
+*Br  323 :Muon.pfRelIsoDB03v2 : Float_t pfRelIsoDB03v2[Muon_]                *
+*Entries :      500 : Total  Size=       3120 bytes  File Size  =        443 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.67     *
+*............................................................................*
+*Br  324 :Muon.pfRelIso04v1 : Float_t pfRelIso04v1[Muon_]                    *
+*Entries :      500 : Total  Size=       3110 bytes  File Size  =        442 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  325 :Muon.pfRelIso04v2 : Float_t pfRelIso04v2[Muon_]                    *
+*Entries :      500 : Total  Size=       3110 bytes  File Size  =        442 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.68     *
+*............................................................................*
+*Br  326 :Muon.pfRelIsoDB04v1 : Float_t pfRelIsoDB04v1[Muon_]                *
+*Entries :      500 : Total  Size=       3120 bytes  File Size  =        443 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.67     *
+*............................................................................*
+*Br  327 :Muon.pfRelIsoDB04v2 : Float_t pfRelIsoDB04v2[Muon_]                *
+*Entries :      500 : Total  Size=       3120 bytes  File Size  =        443 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.67     *
+*............................................................................*
+*Br  328 :Muon.selbit : Int_t selbit[Muon_]                                  *
+*Entries :      500 : Total  Size=       3080 bytes  File Size  =        435 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.76     *
+*............................................................................*
+ *Br  329 :nMuon     : fnMuon/I                                               *
+*Entries :      500 : Total  Size=       2551 bytes  File Size  =        296 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.01     *
+*............................................................................*
+ *Br  330 :Tau       : Int_t Tau_                                             *
+*Entries :      500 : Total  Size=      90414 bytes  File Size  =       1503 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.71     *
+*............................................................................*
+*Br  331 :Tau.fUniqueID : UInt_t fUniqueID[Tau_]                             *
+*Entries :      500 : Total  Size=      26792 bytes  File Size  =       1277 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.52     *
+*............................................................................*
+*Br  332 :Tau.fBits : UInt_t fBits[Tau_]                                     *
+*Entries :      500 : Total  Size=      26772 bytes  File Size  =       1279 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.49     *
+*............................................................................*
+*Br  333 :Tau.eta   : Double_t eta[Tau_]                                     *
+*Entries :      500 : Total  Size=      50966 bytes  File Size  =      31270 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.61     *
+*............................................................................*
+*Br  334 :Tau.phi   : Double_t phi[Tau_]                                     *
+*Entries :      500 : Total  Size=      50966 bytes  File Size  =      31224 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.61     *
+*............................................................................*
+*Br  335 :Tau.pt    : Double_t pt[Tau_]                                      *
+*Entries :      500 : Total  Size=      50960 bytes  File Size  =      29582 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.70     *
+*............................................................................*
+*Br  336 :Tau.energy : Double_t energy[Tau_]                                 *
+*Entries :      500 : Total  Size=      50984 bytes  File Size  =      47657 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.06     *
+*............................................................................*
+*Br  337 :Tau.charge : Int_t charge[Tau_]                                    *
+*Entries :      500 : Total  Size=      26777 bytes  File Size  =       5416 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.84     *
+*............................................................................*
+*Br  338 :Tau.mass  : Double_t mass[Tau_]                                    *
+*Entries :      500 : Total  Size=      50972 bytes  File Size  =      32165 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.57     *
+*............................................................................*
+*Br  339 :Tau.leadTrkPt : Double_t leadTrkPt[Tau_]                           *
+*Entries :      500 : Total  Size=      51002 bytes  File Size  =       1694 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.76     *
+*............................................................................*
+*Br  340 :Tau.leadTrkPtError : Double_t leadTrkPtError[Tau_]                 *
+*Entries :      500 : Total  Size=      51032 bytes  File Size  =       1708 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.53     *
+*............................................................................*
+*Br  341 :Tau.leadTrkEta : Double_t leadTrkEta[Tau_]                         *
+*Entries :      500 : Total  Size=      51008 bytes  File Size  =       1701 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.64     *
+*............................................................................*
+*Br  342 :Tau.leadTrkPhi : Double_t leadTrkPhi[Tau_]                         *
+*Entries :      500 : Total  Size=      51008 bytes  File Size  =       1701 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.64     *
+*............................................................................*
+*Br  343 :Tau.leadTrkCharge : Double_t leadTrkCharge[Tau_]                   *
+*Entries :      500 : Total  Size=      51026 bytes  File Size  =       1702 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.63     *
+*............................................................................*
+*Br  344 :Tau.leadTrkD0 : Double_t leadTrkD0[Tau_]                           *
+*Entries :      500 : Total  Size=      51002 bytes  File Size  =       1694 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.76     *
+*............................................................................*
+*Br  345 :Tau.leadTrkD0Error : Double_t leadTrkD0Error[Tau_]                 *
+*Entries :      500 : Total  Size=      51032 bytes  File Size  =       1708 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.53     *
+*............................................................................*
+*Br  346 :Tau.leadTrkDz : Double_t leadTrkDz[Tau_]                           *
+*Entries :      500 : Total  Size=      51002 bytes  File Size  =       1694 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.76     *
+*............................................................................*
+*Br  347 :Tau.leadTrkDzError : Double_t leadTrkDzError[Tau_]                 *
+*Entries :      500 : Total  Size=      51032 bytes  File Size  =       1708 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.53     *
+*............................................................................*
+*Br  348 :Tau.vtxIndex : Int_t vtxIndex[Tau_]                                *
+*Entries :      500 : Total  Size=      26787 bytes  File Size  =       1278 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.51     *
+*............................................................................*
+*Br  349 :Tau.vtxDxy : Double_t vtxDxy[Tau_]                                 *
+*Entries :      500 : Total  Size=      50984 bytes  File Size  =       1683 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.95     *
+*............................................................................*
+*Br  350 :Tau.vtxDz : Double_t vtxDz[Tau_]                                   *
+*Entries :      500 : Total  Size=      50978 bytes  File Size  =       1692 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.79     *
+*............................................................................*
+*Br  351 :Tau.leadChargedParticlePt : Double_t leadChargedParticlePt[Tau_]   *
+*Entries :      500 : Total  Size=      51074 bytes  File Size  =      24812 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   2.03     *
+*............................................................................*
+*Br  352 :Tau.leadNeutralParticlePt : Double_t leadNeutralParticlePt[Tau_]   *
+*Entries :      500 : Total  Size=      51074 bytes  File Size  =       6432 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   7.84     *
+*............................................................................*
+*Br  353 :Tau.leadParticlePt : Double_t leadParticlePt[Tau_]                 *
+*Entries :      500 : Total  Size=      51032 bytes  File Size  =      37081 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.36     *
+*............................................................................*
+*Br  354 :Tau.numChargedHadronsSignalCone :                                  *
+*         | Int_t numChargedHadronsSignalCone[Tau_]                          *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       4337 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.05     *
+*............................................................................*
+*Br  355 :Tau.numNeutralHadronsSignalCone :                                  *
+*         | Int_t numNeutralHadronsSignalCone[Tau_]                          *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       1290 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.33     *
+*............................................................................*
+*Br  356 :Tau.numPhotonsSignalCone : Int_t numPhotonsSignalCone[Tau_]        *
+*Entries :      500 : Total  Size=      26847 bytes  File Size  =       3117 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   8.41     *
+*............................................................................*
+*Br  357 :Tau.numParticlesSignalCone : Int_t numParticlesSignalCone[Tau_]    *
+*Entries :      500 : Total  Size=      26857 bytes  File Size  =       4966 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.28     *
+*............................................................................*
+*Br  358 :Tau.numChargedHadronsIsoCone : Int_t numChargedHadronsIsoCone[Tau_]*
+*Entries :      500 : Total  Size=      26867 bytes  File Size  =       5569 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.71     *
+*............................................................................*
+*Br  359 :Tau.numNeutralHadronsIsoCone : Int_t numNeutralHadronsIsoCone[Tau_]*
+*Entries :      500 : Total  Size=      26867 bytes  File Size  =       4638 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.65     *
+*............................................................................*
+*Br  360 :Tau.numPhotonsIsoCone : Int_t numPhotonsIsoCone[Tau_]              *
+*Entries :      500 : Total  Size=      26832 bytes  File Size  =       4516 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   5.81     *
+*............................................................................*
+*Br  361 :Tau.numParticlesIsoCone : Int_t numParticlesIsoCone[Tau_]          *
+*Entries :      500 : Total  Size=      26842 bytes  File Size  =       6359 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.12     *
+*............................................................................*
+*Br  362 :Tau.ptSumPFChargedHadronsIsoCone :                                 *
+*         | Double_t ptSumPFChargedHadronsIsoCone[Tau_]                      *
+*Entries :      500 : Total  Size=      51116 bytes  File Size  =      20081 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   2.51     *
+*............................................................................*
+*Br  363 :Tau.ptSumPFNeutralHadronsIsoCone :                                 *
+*         | Double_t ptSumPFNeutralHadronsIsoCone[Tau_]                      *
+*Entries :      500 : Total  Size=      51116 bytes  File Size  =       1735 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.08     *
+*............................................................................*
+*Br  364 :Tau.ptSumPhotonsIsoCone : Double_t ptSumPhotonsIsoCone[Tau_]       *
+*Entries :      500 : Total  Size=      51062 bytes  File Size  =      13710 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   3.68     *
+*............................................................................*
+*Br  365 :Tau.sigChHadCandPt[40] : Double_t sigChHadCandPt[Tau_]             *
+*Entries :      500 : Total  Size=    1939761 bytes  File Size  =      21466 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  90.28     *
+*............................................................................*
+*Br  366 :Tau.sigChHadCandEta[40] : Double_t sigChHadCandEta[Tau_]           *
+*Entries :      500 : Total  Size=    1939830 bytes  File Size  =      21542 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  89.97     *
+*............................................................................*
+*Br  367 :Tau.sigChHadCandPhi[40] : Double_t sigChHadCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=    1939830 bytes  File Size  =      21542 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  89.97     *
+*............................................................................*
+*Br  368 :Tau.sigNeHadCandPt[20] : Double_t sigNeHadCandPt[Tau_]             *
+*Entries :      500 : Total  Size=     971034 bytes  File Size  =      11640 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.33     *
+*............................................................................*
+*Br  369 :Tau.sigNeHadCandEta[20] : Double_t sigNeHadCandEta[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  370 :Tau.sigNeHadCandPhi[20] : Double_t sigNeHadCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  371 :Tau.sigGammaCandPt[20] : Double_t sigGammaCandPt[Tau_]             *
+*Entries :      500 : Total  Size=     971034 bytes  File Size  =      11640 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.33     *
+*............................................................................*
+*Br  372 :Tau.sigGammaCandEta[20] : Double_t sigGammaCandEta[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  373 :Tau.sigGammaCandPhi[20] : Double_t sigGammaCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  374 :Tau.isoChHadCandPt[40] : Double_t isoChHadCandPt[Tau_]             *
+*Entries :      500 : Total  Size=    1939761 bytes  File Size  =      21466 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  90.28     *
+*............................................................................*
+*Br  375 :Tau.isoChHadCandEta[40] : Double_t isoChHadCandEta[Tau_]           *
+*Entries :      500 : Total  Size=    1939830 bytes  File Size  =      21542 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  89.97     *
+*............................................................................*
+*Br  376 :Tau.isoChHadCandPhi[40] : Double_t isoChHadCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=    1939830 bytes  File Size  =      21542 *
+*Baskets :       65 : Basket Size=      32000 bytes  Compression=  89.97     *
+*............................................................................*
+*Br  377 :Tau.isoNeHadCandPt[20] : Double_t isoNeHadCandPt[Tau_]             *
+*Entries :      500 : Total  Size=     971034 bytes  File Size  =      11640 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.33     *
+*............................................................................*
+*Br  378 :Tau.isoNeHadCandEta[20] : Double_t isoNeHadCandEta[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  379 :Tau.isoNeHadCandPhi[20] : Double_t isoNeHadCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  380 :Tau.isoGammaCandPt[20] : Double_t isoGammaCandPt[Tau_]             *
+*Entries :      500 : Total  Size=     971034 bytes  File Size  =      11640 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.33     *
+*............................................................................*
+*Br  381 :Tau.isoGammaCandEta[20] : Double_t isoGammaCandEta[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  382 :Tau.isoGammaCandPhi[20] : Double_t isoGammaCandPhi[Tau_]           *
+*Entries :      500 : Total  Size=     971070 bytes  File Size  =      11676 *
+*Baskets :       32 : Basket Size=      32000 bytes  Compression=  83.08     *
+*............................................................................*
+*Br  383 :Tau.decayModeFinding : Float_t decayModeFinding[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =       1299 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.18     *
+*............................................................................*
+*Br  384 :Tau.decayModeFindingNewDMs : Float_t decayModeFindingNewDMs[Tau_]  *
+*Entries :      500 : Total  Size=      26857 bytes  File Size  =       1307 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.06     *
+*............................................................................*
+*Br  385 :Tau.decayModeFindingOldDMs : Float_t decayModeFindingOldDMs[Tau_]  *
+*Entries :      500 : Total  Size=      26857 bytes  File Size  =       1307 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.06     *
+*............................................................................*
+*Br  386 :Tau.chargedIsoPtSum : Float_t chargedIsoPtSum[Tau_]                *
+*Entries :      500 : Total  Size=      26822 bytes  File Size  =       1286 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.39     *
+*............................................................................*
+*Br  387 :Tau.neutralIsoPtSum : Float_t neutralIsoPtSum[Tau_]                *
+*Entries :      500 : Total  Size=      26822 bytes  File Size  =       1286 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.39     *
+*............................................................................*
+*Br  388 :Tau.puCorrPtSum : Float_t puCorrPtSum[Tau_]                        *
+*Entries :      500 : Total  Size=      26802 bytes  File Size  =       1283 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.43     *
+*............................................................................*
+*Br  389 :Tau.CombinedIsolationDeltaBetaCorrRaw3Hits :                       *
+*         | Float_t CombinedIsolationDeltaBetaCorrRaw3Hits[Tau_]             *
+*Entries :      500 : Total  Size=      26937 bytes  File Size  =       1326 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.79     *
+*............................................................................*
+*Br  390 :Tau.CombinedIsolationDeltaBetaCorrRaw :                            *
+*         | Float_t CombinedIsolationDeltaBetaCorrRaw[Tau_]                  *
+*Entries :      500 : Total  Size=      26912 bytes  File Size  =       1323 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.83     *
+*............................................................................*
+*Br  391 :Tau.byIsolationMVA3newDMwLTraw :                                   *
+*         | Float_t byIsolationMVA3newDMwLTraw[Tau_]                         *
+*Entries :      500 : Total  Size=      26877 bytes  File Size  =       1311 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.01     *
+*............................................................................*
+*Br  392 :Tau.byIsolationMVA3newDMwoLTraw :                                  *
+*         | Float_t byIsolationMVA3newDMwoLTraw[Tau_]                        *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       1305 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.10     *
+*............................................................................*
+*Br  393 :Tau.byIsolationMVA3oldDMwLTraw :                                   *
+*         | Float_t byIsolationMVA3oldDMwLTraw[Tau_]                         *
+*Entries :      500 : Total  Size=      26877 bytes  File Size  =       1311 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.01     *
+*............................................................................*
+*Br  394 :Tau.byIsolationMVA3oldDMwoLTraw :                                  *
+*         | Float_t byIsolationMVA3oldDMwoLTraw[Tau_]                        *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       1305 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.10     *
+*............................................................................*
+*Br  395 :Tau.byLooseCombinedIsolationDeltaBetaCorr :                        *
+*         | Float_t byLooseCombinedIsolationDeltaBetaCorr[Tau_]              *
+*Entries :      500 : Total  Size=      26932 bytes  File Size  =       1325 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.80     *
+*............................................................................*
+*Br  396 :Tau.byLooseCombinedIsolationDeltaBetaCorr3Hits :                   *
+*         | Float_t byLooseCombinedIsolationDeltaBetaCorr3Hits[Tau_]         *
+*Entries :      500 : Total  Size=      26957 bytes  File Size  =       1332 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.70     *
+*............................................................................*
+*Br  397 :Tau.byMediumCombinedIsolationDeltaBetaCorr :                       *
+*         | Float_t byMediumCombinedIsolationDeltaBetaCorr[Tau_]             *
+*Entries :      500 : Total  Size=      26937 bytes  File Size  =       1326 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.79     *
+*............................................................................*
+*Br  398 :Tau.byMediumCombinedIsolationDeltaBetaCorr3Hits :                  *
+*         | Float_t byMediumCombinedIsolationDeltaBetaCorr3Hits[Tau_]        *
+*Entries :      500 : Total  Size=      26962 bytes  File Size  =       1326 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.79     *
+*............................................................................*
+*Br  399 :Tau.byTightCombinedIsolationDeltaBetaCorr :                        *
+*         | Float_t byTightCombinedIsolationDeltaBetaCorr[Tau_]              *
+*Entries :      500 : Total  Size=      26932 bytes  File Size  =       1325 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.80     *
+*............................................................................*
+*Br  400 :Tau.byTightCombinedIsolationDeltaBetaCorr3Hits :                   *
+*         | Float_t byTightCombinedIsolationDeltaBetaCorr3Hits[Tau_]         *
+*Entries :      500 : Total  Size=      26957 bytes  File Size  =       1332 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.70     *
+*............................................................................*
+*Br  401 :Tau.byLooseIsolationMVA3newDMwLT :                                 *
+*         | Float_t byLooseIsolationMVA3newDMwLT[Tau_]                       *
+*Entries :      500 : Total  Size=      26887 bytes  File Size  =       1317 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.92     *
+*............................................................................*
+*Br  402 :Tau.byLooseIsolationMVA3newDMwoLT :                                *
+*         | Float_t byLooseIsolationMVA3newDMwoLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  403 :Tau.byLooseIsolationMva3oldDMwLT :                                 *
+*         | Float_t byLooseIsolationMva3oldDMwLT[Tau_]                       *
+*Entries :      500 : Total  Size=      26887 bytes  File Size  =       1317 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.92     *
+*............................................................................*
+*Br  404 :Tau.byLooseIsolationMVA3oldDMwoLT :                                *
+*         | Float_t byLooseIsolationMVA3oldDMwoLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  405 :Tau.byMediumIsolationMVA3newDMwLT :                                *
+*         | Float_t byMediumIsolationMVA3newDMwLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  406 :Tau.byMediumIsolationMVA3newDMwoLT :                               *
+*         | Float_t byMediumIsolationMVA3newDMwoLT[Tau_]                     *
+*Entries :      500 : Total  Size=      26897 bytes  File Size  =       1318 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.90     *
+*............................................................................*
+*Br  407 :Tau.byMediumIsolationMva3oldDMwLT :                                *
+*         | Float_t byMediumIsolationMva3oldDMwLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  408 :Tau.byMediumIsolationMVA3oldDMwoLT :                               *
+*         | Float_t byMediumIsolationMVA3oldDMwoLT[Tau_]                     *
+*Entries :      500 : Total  Size=      26897 bytes  File Size  =       1318 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.90     *
+*............................................................................*
+*Br  409 :Tau.byTightIsolationMVA3newDMwLT :                                 *
+*         | Float_t byTightIsolationMVA3newDMwLT[Tau_]                       *
+*Entries :      500 : Total  Size=      26887 bytes  File Size  =       1317 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.92     *
+*............................................................................*
+*Br  410 :Tau.byTightIsolationMVA3newDMwoLT :                                *
+*         | Float_t byTightIsolationMVA3newDMwoLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  411 :Tau.byTightIsolationMva3oldDMwLT :                                 *
+*         | Float_t byTightIsolationMva3oldDMwLT[Tau_]                       *
+*Entries :      500 : Total  Size=      26887 bytes  File Size  =       1317 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.92     *
+*............................................................................*
+*Br  412 :Tau.byTightIsolationMVA3oldDMwoLT :                                *
+*         | Float_t byTightIsolationMVA3oldDMwoLT[Tau_]                      *
+*Entries :      500 : Total  Size=      26892 bytes  File Size  =       1319 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.89     *
+*............................................................................*
+*Br  413 :Tau.againstMuonLoose : Float_t againstMuonLoose[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =       1809 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  14.49     *
+*............................................................................*
+*Br  414 :Tau.againstMuonLoose2 : Float_t againstMuonLoose2[Tau_]            *
+*Entries :      500 : Total  Size=      26832 bytes  File Size  =       1912 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  13.71     *
+*............................................................................*
+*Br  415 :Tau.againstMuonLoose3 : Float_t againstMuonLoose3[Tau_]            *
+*Entries :      500 : Total  Size=      26832 bytes  File Size  =       3741 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.01     *
+*............................................................................*
+*Br  416 :Tau.againstMuonLooseMVA : Float_t againstMuonLooseMVA[Tau_]        *
+*Entries :      500 : Total  Size=      26842 bytes  File Size  =       1297 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.22     *
+*............................................................................*
+*Br  417 :Tau.againstMuonTight : Float_t againstMuonTight[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =       3721 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.05     *
+*............................................................................*
+*Br  418 :Tau.againstMuonTight2 : Float_t againstMuonTight2[Tau_]            *
+*Entries :      500 : Total  Size=      26832 bytes  File Size  =       3764 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.97     *
+*............................................................................*
+*Br  419 :Tau.againstMuonTight3 : Float_t againstMuonTight3[Tau_]            *
+*Entries :      500 : Total  Size=      26832 bytes  File Size  =       3746 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   7.00     *
+*............................................................................*
+*Br  420 :Tau.againstMuonTightMVA : Float_t againstMuonTightMVA[Tau_]        *
+*Entries :      500 : Total  Size=      26842 bytes  File Size  =       1297 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.22     *
+*............................................................................*
+*Br  421 :Tau.againstElectronLoose : Float_t againstElectronLoose[Tau_]      *
+*Entries :      500 : Total  Size=      26847 bytes  File Size  =       3764 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.97     *
+*............................................................................*
+*Br  422 :Tau.againstElectronMedium : Float_t againstElectronMedium[Tau_]    *
+*Entries :      500 : Total  Size=      26852 bytes  File Size  =       3996 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.56     *
+*............................................................................*
+*Br  423 :Tau.againstElectronTight : Float_t againstElectronTight[Tau_]      *
+*Entries :      500 : Total  Size=      26847 bytes  File Size  =       3924 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   6.68     *
+*............................................................................*
+*Br  424 :Tau.pfElectronMVA : Float_t pfElectronMVA[Tau_]                    *
+*Entries :      500 : Total  Size=      26812 bytes  File Size  =       5270 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   4.97     *
+*............................................................................*
+*Br  425 :Tau.againstElectronMVALooseMVA5 :                                  *
+*         | Float_t againstElectronMVALooseMVA5[Tau_]                        *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       1305 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.10     *
+*............................................................................*
+*Br  426 :Tau.againstElectronMVAMediumMVA5 :                                 *
+*         | Float_t againstElectronMVAMediumMVA5[Tau_]                       *
+*Entries :      500 : Total  Size=      26887 bytes  File Size  =       1317 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.92     *
+*............................................................................*
+*Br  427 :Tau.againstElectronMVATightMVA5 :                                  *
+*         | Float_t againstElectronMVATightMVA5[Tau_]                        *
+*Entries :      500 : Total  Size=      26882 bytes  File Size  =       1305 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.10     *
+*............................................................................*
+*Br  428 :Tau.byVLooseCombinedIsolationDeltaBetaCorr :                       *
+*         | Float_t byVLooseCombinedIsolationDeltaBetaCorr[Tau_]             *
+*Entries :      500 : Total  Size=      26937 bytes  File Size  =       1326 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  19.79     *
+*............................................................................*
+*Br  429 :Tau.byLooseIsolationMVA : Float_t byLooseIsolationMVA[Tau_]        *
+*Entries :      500 : Total  Size=      26842 bytes  File Size  =       1297 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.22     *
+*............................................................................*
+*Br  430 :Tau.byMediumIsolationMVA : Float_t byMediumIsolationMVA[Tau_]      *
+*Entries :      500 : Total  Size=      26847 bytes  File Size  =       1309 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.03     *
+*............................................................................*
+*Br  431 :Tau.byTightIsolationMVA : Float_t byTightIsolationMVA[Tau_]        *
+*Entries :      500 : Total  Size=      26842 bytes  File Size  =       1297 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.22     *
+*............................................................................*
+*Br  432 :Tau.jetPt : Double_t jetPt[Tau_]                                   *
+*Entries :      500 : Total  Size=      50978 bytes  File Size  =       1692 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.79     *
+*............................................................................*
+*Br  433 :Tau.jetEta : Double_t jetEta[Tau_]                                 *
+*Entries :      500 : Total  Size=      50984 bytes  File Size  =       1683 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.95     *
+*............................................................................*
+*Br  434 :Tau.jetPhi : Double_t jetPhi[Tau_]                                 *
+*Entries :      500 : Total  Size=      50984 bytes  File Size  =       1683 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=  29.95     *
+*............................................................................*
+*Br  435 :Tau.emFraction : Float_t emFraction[Tau_]                          *
+*Entries :      500 : Total  Size=      26797 bytes  File Size  =      13404 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.96     *
+*............................................................................*
+*Br  436 :Tau.maximumHCALPFClusterEt : Float_t maximumHCALPFClusterEt[Tau_]  *
+*Entries :      500 : Total  Size=      26857 bytes  File Size  =      14980 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.75     *
+*............................................................................*
+*Br  437 :Tau.ecalStripSumEOverPLead : Float_t ecalStripSumEOverPLead[Tau_]  *
+*Entries :      500 : Total  Size=      26857 bytes  File Size  =      13208 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.99     *
+*............................................................................*
+*Br  438 :Tau.bremsRecoveryEOverPLead : Float_t bremsRecoveryEOverPLead[Tau_]*
+*Entries :      500 : Total  Size=      26862 bytes  File Size  =       1301 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.16     *
+*............................................................................*
+*Br  439 :Tau.hcalTotOverPLead : Float_t hcalTotOverPLead[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =      15108 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.74     *
+*............................................................................*
+*Br  440 :Tau.hcalMaxOverPLead : Float_t hcalMaxOverPLead[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =      15017 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.75     *
+*............................................................................*
+*Br  441 :Tau.hcal3x3OverPLead : Float_t hcal3x3OverPLead[Tau_]              *
+*Entries :      500 : Total  Size=      26827 bytes  File Size  =      10080 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   2.60     *
+*............................................................................*
+*Br  442 :Tau.etaetaMoment : Float_t etaetaMoment[Tau_]                      *
+*Entries :      500 : Total  Size=      26807 bytes  File Size  =      23240 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.13     *
+*............................................................................*
+*Br  443 :Tau.phiphiMoment : Float_t phiphiMoment[Tau_]                      *
+*Entries :      500 : Total  Size=      26807 bytes  File Size  =      23844 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.10     *
+*............................................................................*
+*Br  444 :Tau.etaphiMoment : Float_t etaphiMoment[Tau_]                      *
+*Entries :      500 : Total  Size=      26807 bytes  File Size  =       1296 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.23     *
+*............................................................................*
+*Br  445 :Tau.vx    : Double_t vx[Tau_]                                      *
+*Entries :      500 : Total  Size=      50960 bytes  File Size  =       8184 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   6.16     *
+*............................................................................*
+*Br  446 :Tau.vy    : Double_t vy[Tau_]                                      *
+*Entries :      500 : Total  Size=      50960 bytes  File Size  =       8195 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   6.15     *
+*............................................................................*
+*Br  447 :Tau.vz    : Double_t vz[Tau_]                                      *
+*Entries :      500 : Total  Size=      50960 bytes  File Size  =       8147 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   6.19     *
+*............................................................................*
+*Br  448 :Tau.zvertex : Double_t zvertex[Tau_]                               *
+*Entries :      500 : Total  Size=      50990 bytes  File Size  =       8131 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   6.20     *
+*............................................................................*
+*Br  449 :Tau.ltsipt : Double_t ltsipt[Tau_]                                 *
+*Entries :      500 : Total  Size=      50984 bytes  File Size  =      25279 *
+*Baskets :        2 : Basket Size=      32000 bytes  Compression=   1.99     *
+*............................................................................*
+*Br  450 :Tau.selbit : Int_t selbit[Tau_]                                    *
+*Entries :      500 : Total  Size=      26777 bytes  File Size  =       1264 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=  20.73     *
+*............................................................................*
+ *Br  451 :nTau      : fnTau/I                                                *
+*Entries :      500 : Total  Size=       2546 bytes  File Size  =        677 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   3.06     *
+*............................................................................*
