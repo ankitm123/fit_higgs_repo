@@ -1,0 +1,10 @@
++LOCAL     = TRUE
+Universe   = vanilla
+Executable = /home/amohapatra/samples_gem_studies/Backgrounds/CMSSW_6_2_0_SLHC23_patch1/src/skimmer.sh
+Arguments  = file
+Log        = Log/skimmer.file.log
+Output     = Output/skimmer.file.out
+Error      = Error/skimmer.file.error
+initialdir = /home/amohapatra/samples_gem_studies/Backgrounds/CMSSW_6_2_0_SLHC23_patch1/src
+Queue 1
+
